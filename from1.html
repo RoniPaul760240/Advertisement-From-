@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<section>
+
+    <body>
+        <header>
+            <h1 style="font-style: italic;">Google Form</h1>
+            <p>
+                Read below instruction before proceeding: <br />
+                Make sure you fill all the fileds where * is provided.
+            </p>
+        </header>
+        <form>
+            <article>
+                <h3>Frist Name</h3>
+                <input type="text" required>
+            </article>
+            <article>
+                <h3>Last Name</h3>
+                <input type="text" required>
+            </article>
+            <article>
+                <h3>DOB</h3>
+                <input type="date" required>
+            </article>
+            <article>
+                <h3>Mobile Number</h3>
+                <input type="number" required>
+            </article>
+            <article>
+                <h2>Address </h2>
+
+                <h3>House No.</h3>
+                <input type="text" required>
+                <h3>Street No.</h3>
+                <input type="text" required>
+                <h3>Area</h3>
+                <input type="text" required>
+                <h3>District</h3>
+                <select id="district">
+                    <option>Select</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Bhubaneswar">Bhubaneswar</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                </select>
+            </article>
+            <article>
+                <h3>Pincode</h3>
+                <input type="number" required>
+            </article>
+            <article>
+                <h3>Email Address</h3>
+                <input type="email" required>
+            </article>
+            <article>
+                <h3>Your Favorite game</h3>
+                <input type="radio" name="game type" id="game type Cricket">
+                <label for="game type Cricket">Cricket</label>
+                <input type="radio" name="game type" id="game type Football">
+                <label for="game type Football">Football</label>
+                <input type="radio" name="game type" id="game type Basketball">
+                <label for="game type Basketball">Basketball</label>
+            </article>
+            <article>
+                <h3>Upload Image</h3>
+                <input type="file" required>
+            </article>
+            <button>
+                Submit
+            </button>
+            <button>
+                Reset
+            </button>
+        </form>
+
+        <footer>
+
+        </footer>
+</section>
+</body>
+
+</html>

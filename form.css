@@ -1,0 +1,72 @@
+body{
+    background-image: url(css.jpg);
+    background-position: center;
+}
+p,h1{
+    text-align: center;
+}
+header{
+    border-radius: 10px;
+    background-color: rgb(189, 154, 222);   
+}
+section{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    width: 40%;
+}
+header p{
+    border-left: 0.2%;
+    padding: 10px;
+    text-align: left;
+}
+
+p::first-line{
+    color: blue;
+    font-style: bold;
+}
+article{
+    border: 1.5px solid rgb(202, 157, 244);
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    /* font-family: Helvetica; */
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+article h3::after{
+    content: "*";
+    color: red;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+}
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+#district{
+    font-size: 18px;
+    height: 40px;
+}
+input[name="game type"]{
+    height: 15px;
+    width: 15px;
+    color: blue;
+}
+button{
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: purple;
+    color: #fff;
+    margin: 20px;
+    float: right;
+}
